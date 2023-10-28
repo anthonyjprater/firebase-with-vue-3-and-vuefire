@@ -14,7 +14,7 @@ const db = useFirestore()
 const cafeCollection = ref([])
 
 // VUEFIRE useCollection THROWING ERROR -------
-// const cafeCollection = ref([])
+// const cafeCollection = useCollection(collection(db, "cafes"))
 // -----------------------------------------
 
 // Original Firebase Collection
